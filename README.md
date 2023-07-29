@@ -1,4 +1,3 @@
-#Palindrom
 Palindrom (Connect Four) Game
 This project involves creating a program that allows two players to play the Palindrom game, a variant of the well-known Connect Four game.
 
