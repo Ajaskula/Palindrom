@@ -1,7 +1,7 @@
-Palindrom (Connect Four) Game
+# Palindrom (Connect Four) Game
 This project involves creating a program that allows two players to play the Palindrom game, a variant of the well-known Connect Four game.
 
-Introduction
+# Introduction
 The Palindrom game is played by two players, referred to as "First" and "Second," on a vertically oriented rectangular board divided into rows and columns. Each player has their own type of pawn.
 
 At the beginning of the game, the board is empty, and the First player makes the first move.
@@ -10,7 +10,7 @@ Players take turns placing their pawns on the board. The pawn is placed in the s
 
 A player wins if they create a palindrom of a specified length by placing pawns on consecutive cells in the same row, column, or diagonal.
 
-Parameters
+# Parameters
 The game is parameterized by three positive integers:
 
 ROWS: the number of rows on the board.
@@ -34,7 +34,7 @@ The program receives the command to end the game, or
 One of the players wins.
 If one of the players wins, the program will display the final state of the board and announce the winner.
 
-Input Format
+# Input Format
 The input to the program consists of commands from the players. Each command occupies one line. All commands are valid. After the last command, there can be any text, which will be ignored by the program.
 
 In a move command, the player specifies the column where they want to place their pawn. Columns are named with consecutive lowercase letters, starting from 'a'.
@@ -43,7 +43,7 @@ A move command is valid if the specified column has an available cell for the pa
 
 The command to end the game consists of a single dot character '.'
 
-Output Format
+# Output Format
 The program's output consists of a sequence of board diagrams. After each diagram, there is a line indicating which player is to make a move or who won the game.
 
 The board diagram describes each cell using the following characters:
@@ -63,6 +63,7 @@ There are no characters in the output text that have not been mentioned above.
 
 Each printed line, including the last one, ends with the end-of-line character '\n'.
 
+# Examples
 In files there are examples compiled with the command:
 
 gcc @opcje -DWIERSZE=8 -DKOLUMNY=8 -DDLUGOSC=5 zadanie1.c -o zadanie1
