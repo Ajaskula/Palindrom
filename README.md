@@ -66,7 +66,7 @@ Each printed line, including the last one, ends with the end-of-line character '
 # Examples
 In files there are examples compiled with the command:
 ```
-gcc @opcje -DWIERSZE=8 -DKOLUMNY=8 -DDLUGOSC=5 zadanie1.c -o zadanie1
+gcc @opcje -DWIERSZE=8 -DKOLUMNY=8 -DDLUGOSC=5 Palindrom.c -o Palindrom
 ```
 Input data files with example commands are provided as .in files, and the expected output for each example is provided as .out files.
 
